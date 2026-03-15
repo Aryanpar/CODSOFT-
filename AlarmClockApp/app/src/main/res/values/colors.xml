@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background & Surface - Aurora Theme -->
+    <color name="background_start">#0B0B2A</color> <!-- Deep Space Blue -->
+    <color name="background_center">#1A0B2E</color> <!-- Dark Magenta/Purple -->
+    <color name="background_end">#081229</color> <!-- Midnight Indigo -->
+    
+    <color name="background">#0B0B2A</color>
+    <color name="surface">@android:color/transparent</color> 
+    <color name="card_bg">#1AFFFFFF</color> <!-- Glassmorphism effect -->
+    
+    <!-- Primary & Accent - Neon/Cyberpunk accents -->
+    <color name="primary">#00F0FF</color>    <!-- Cyan/Neon Blue -->
+    <color name="primary_variant">#00E5FF</color>
+    <color name="accent">#FF007F</color>     <!-- Hot Pink -->
+    <color name="accent_glow">#FF3399</color>
+    
+    <!-- Status & Feedback -->
+    <color name="success">#39FF14</color>    <!-- Neon Green -->
+    <color name="error">#FF2A2A</color>      <!-- Neon Red -->
+    <color name="warning">#FFEA00</color>    <!-- Neon Yellow -->
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>   <!-- Pure White -->
+    <color name="text_secondary">#B0C4DE</color> <!-- Light Steel Blue -->
+    <color name="text_muted">#778899</color>     <!-- Light Slate Gray -->
+    
+    <!-- On Colors -->
+    <color name="on_primary">#0B0B2A</color>
+    <color name="on_background">#FFFFFF</color>
+    <color name="on_surface">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

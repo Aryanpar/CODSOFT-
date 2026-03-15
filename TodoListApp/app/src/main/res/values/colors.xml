@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Palette -->
+    <color name="colorPrimary">#6C63FF</color>
+    <color name="colorPrimaryDark">#4B44CC</color>
+    <color name="colorPrimaryLight">#EDE9FF</color>
+    <color name="colorAccent">#FF6584</color>
+
+    <!-- Background -->
+    <color name="colorBackground">#F5F6FA</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorSurfaceCard">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="colorTextPrimary">#1C1C2E</color>
+    <color name="colorTextSecondary">#6E6E8F</color>
+    <color name="colorTextHint">#ABABC4</color>
+
+    <!-- Priority Colors -->
+    <color name="colorPriorityHigh">#FF4757</color>
+    <color name="colorPriorityHighBg">#FFF0F1</color>
+    <color name="colorPriorityMedium">#FFA502</color>
+    <color name="colorPriorityMediumBg">#FFF8EB</color>
+    <color name="colorPriorityLow">#2ED573</color>
+    <color name="colorPriorityLowBg">#EDFFF5</color>
+
+    <!-- Status -->
+    <color name="colorCompleted">#ABABC4</color>
+    <color name="colorCompletedBg">#F7F7FB</color>
+    <color name="colorDelete">#FF4757</color>
+    <color name="colorEdit">#6C63FF</color>
+
+    <!-- Stroke / Divider -->
+    <color name="colorStroke">#EBEBF5</color>
+</resources>

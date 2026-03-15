@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:padding="32dp">
+
+    <!-- Pulsing Background Effect (Conceptual, will use a glow) -->
+    <View
+        android:id="@+id/glowCircle"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@android:drawable/presence_online"
+        android:backgroundTint="@color/accent_glow"
+        android:alpha="0.15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="07:00"
+        android:textColor="@color/text_primary"
+        android:textSize="100sp"
+        android:shadowColor="#80000000"
+        android:shadowDx="0"
+        android:shadowDy="8"
+        android:shadowRadius="16"
+        app:layout_constraintBottom_toTopOf="@+id/textViewLabelRing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/textViewLabelRing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.1"
+        android:text="WAKE UP"
+        android:textColor="@color/primary"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSnooze"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRingTime" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSnooze"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="SNOOZE (5 MINUTES)"
+        android:textColor="@color/text_primary"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        app:backgroundTint="#20FFFFFF"
+        app:strokeWidth="1dp"
+        app:strokeColor="#40FFFFFF"
+        app:cornerRadius="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDismiss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDismiss"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="DISMISS"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        app:backgroundTint="@color/accent"
+        app:cornerRadius="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
