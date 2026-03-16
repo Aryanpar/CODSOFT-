@@ -16,6 +16,7 @@ A simple productivity application that allows users to manage daily tasks.
 * Add tasks
 * Delete tasks
 * Simple and clean user interface
+* easy to use
 
 **Download APK**
 [Download TodoListApp](APK/TodoListApp.apk)
@@ -46,6 +47,8 @@ An interactive quiz application that tests user knowledge through multiple-choic
 * Multiple-choice questions
 * Score calculation
 * Displays results at the end of the quiz
+* clean ui
+* simple and easy to use
 
 **Download APK**
 [Download Quiz App](APK/quiz_demo_app.apk)
@@ -78,5 +81,5 @@ CODSOFT-
 
 ## 👨‍💻 Author
 
-**Aryan Vankar**
+**Aryan Parmar**
 Android App Development Intern – CodSoft
